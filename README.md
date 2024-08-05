@@ -21,18 +21,6 @@ clean:
 	rm -rf $(OBJ) $(EXEC)
 ```
 
-#### Arguments for `clean`
-
-fisk: The number of seconds to wait before cleaning the directory
-
-#### Options for `clean`
-
-start: The number of seconds to wait before cleaning the directory
-
-#### Options for `clean`
-
-docker: The name of the Docker container to be used for the cleanup
-
 # c++ options for cleanup and cleanup after cleaning
 ```c++
 #include <string.h>
@@ -67,7 +55,6 @@ int main() {
 ## License Agreement and Disclaimer
 MIT License (MIT License)
 
-## models and functions created here are licensed under the MIT
     MIT License
 
     Copyright (c) Microsoft Corporation. All rights reserved.
